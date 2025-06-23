@@ -1258,7 +1258,7 @@ export default {
           this.loading2 = false;
         })
     },
-    //getBackendVersion() {
+    getBackendVersion() {
       this.$axios
         .get(
           this.form.customBackend + "/version"
